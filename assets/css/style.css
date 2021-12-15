@@ -1,0 +1,37 @@
+
+/* busket css */
+
+/* Responsive css */
+
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    .round-img {
+        width: 250px;
+        height: 250px;
+
+    }
+    .apoinments-sector .date .form-control {
+        background: url(../img/calender.png)no-repeat calc(100% - 5px);
+    }
+    .footer .foter-img {
+        margin-top: -98px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 992px){
+    
+    .footer .foter-img {
+        height: 199px;
+        margin-top: -88px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width: 768px){
+   
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 576px){
+  
+    
+    
+    
+    
+}

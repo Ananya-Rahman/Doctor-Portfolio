@@ -1,0 +1,305 @@
+/*------------------------------------------------------------------
+Last change:    24/04/21 [fixed Float bug, vf]
+
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+  01. Theme Default Css
+
+
+  -------------------------------------------------------------------*/
+
+
+/*
+/* Font Face */
+
+
+/*
+==========================================
+   01. Theme Default CSS
+==========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.profile-bg{
+  background-image:url('/assets/img/transparent-cover.png'), url('../img/cover-bg.png');
+  height: 270px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-content{
+padding-top: 175px;
+}
+.cover-content h3{
+  font-size: 40px;
+  font-weight: 800;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+.star-icon i{
+  color: #E7B900;
+}
+
+.card-side {
+  margin-top: -160px;
+}
+.rating-txt{
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.round-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 16px;
+}
+.dr-description{
+  border-bottom: 1px solid black;
+}
+.dr-description span{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.dr-description p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+
+}
+.schedule p{
+text-align: left;
+font-size: 25px;
+}
+.schedule-time span{
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 3px;
+  font-weight: 600;
+}
+.schedule-time span i{
+  padding-right: 15px;
+  color: #1E73BE;
+}
+.drop-itm{
+color: #1E73BE;
+cursor: pointer;
+}
+.apoinments-sector .date .form-control{
+background: url('../img/calender.png')no-repeat calc(100% - 15px) ;
+}
+.appoinment-box{
+  padding: 25px 20px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 20px;
+}
+.appoinmnt-txt{
+  border-right: 1px solid #62C686;
+  padding: 20px;
+  height: 100%;
+}
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.apoinments-sector{
+  gap: 20px;
+  align-items: center;
+}
+.flex-1 {
+  flex: 1;
+}
+.appoinment-form{
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+.gap-grid{
+  display: grid;
+    gap: 15px;
+}
+.custom-btn {
+    display: inline-block;
+    padding: 8px 25px;
+    color: #fff;
+    background: #016939;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+.about-side {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.heading-side h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.description p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #707070;
+}
+.area-title h5{
+  font-size: 25px;
+}
+.schedule-box-area {
+  border: 1px solid #2E3888;
+}
+.box-title{
+  padding: 1px;
+  background-color: #2E3888;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.box-title p{
+  margin-top: 0px;
+  margin-bottom: 0rem;
+  padding: 5px;
+}
+.schedule-boxes{
+  width: 310px;
+  height: 319;
+  padding: 10px;
+
+}
+.border-area{
+  border-bottom: 2px solid #016939;
+}
+.apoinments-sector .form-control, .apoinments-sector  .form-control::placeholder {
+  color: #016939;
+}
+
+.location-name{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.area-title{
+  padding-bottom: 10px;
+}
+.gapping{
+  gap: 100px;
+}
+.less p{
+  color: #263238;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.view-d::after{
+  content: '';
+  margin-left: 1rem;
+  height: 1px;
+  width: 60px;
+  background-color: #263238;
+}
+.view-d{
+  display: flex;
+  align-items: center;
+  color: #016939;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quote-msg span{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.quote-msg{
+  padding: 15px;
+  background-color: white;
+  border-radius: 3%;
+}
+.gap-space{
+  gap: 15px;
+}
+.slider-box-area{
+  background-color: #EBFEF1;
+  padding: 20px;
+}
+.beside span{
+font-size: 18px;
+}
+.marge-item{
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.quote-txt {
+  position: relative;
+}
+.quote-msg::after{
+  color: #fff;
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 11px solid #FFFFFF;
+  position: absolute;
+  bottom: 68px;
+  left: 20px;
+  border-radius: .25rem;
+}
+i.fas.fa-quote-right {
+  font-size: 16px;
+  color: #016939;
+  padding-right: 5px;
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+.crd-img {
+  height: 58px;
+  width: 58px;
+}
+
+.carousel{
+  background-color: #EBFEF1;
+}
+
+.slider-carousel-dots span{
+  width: 15px;
+  height: 15px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-carousel-dots span:hover{
+background-color: #000000;
+
+}
+
+.slider-carousel-dots{
+  background-color: #EBFEF1;
+  border: none;
+  margin-top: 0px;
+}
+.footer .foter-img {
+  justify-content: right;
+  position: absolute;
+  max-width: 100%;
+  right: 0;
+  height: 250px;
+  margin-top: -134px;
+}
